@@ -1,18 +1,25 @@
+/* Top Section of the main page */
 .topSection {
-    position:absolute;
-    top:0;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    border-radius: 0;
     width: 100%;
-    
+    height: 150px;
+    overflow: hidden;
 }
 .titleImage {
-    position:relative;
-    top:5px;
-    width: 20%;
-    left:5px;
+    position: relative;
+    top: 5px;
+    width: 300px;
+    left: 5px;
     z-index: 1;
 }
 .backgroundImage {
-    position:relative;
-    top:0;
+    position: absolute;
+    top: -540px;
+    z-index: 0;
+    left: 0;
+    max-width: 1672px;
     z-index: 0;
 }
