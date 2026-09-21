@@ -20,6 +20,13 @@ body {
     left: 5px;
     z-index: 1;
 }
+.titleImageDiv {
+    position:relative;
+    top: 5px;
+    width: 300px;
+    left: 5px;
+    z-index: 1;
+}
 .backgroundImage {
     position: absolute;
     top: -540px;
@@ -35,5 +42,5 @@ body {
     top: 55px;
     left: 310px;
     gap: 20px;
-    
+
 }
