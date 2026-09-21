@@ -1,4 +1,9 @@
 /* Top Section of the main page */
+body {
+    margin: 0;
+    color: white;
+    background-color: #292929;
+}
 .topSection {
     position: sticky;
     top: 0px;
@@ -22,4 +27,13 @@
     left: 0;
     max-width: 1672px;
     z-index: 0;
+}
+.buttons {
+    z-index: 1;
+    position: absolute;
+    display: inline-flex;
+    top: 55px;
+    left: 310px;
+    gap: 20px;
+    
 }
