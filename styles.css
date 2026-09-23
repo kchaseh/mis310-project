@@ -4,7 +4,7 @@ body {
     color: white;
     background-color: #292929;
 }
-.topSection {
+header {
     position: sticky;
     top: 0px;
     left: 0px;
@@ -33,7 +33,7 @@ body {
     top: -540px;
     z-index: 0;
     left: 0;
-    max-width: 1672px;
+    width: 100vw;
     z-index: 0;
 }
 .buttons {
