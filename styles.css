@@ -41,7 +41,9 @@ header {
     position: absolute;
     display: inline-flex;
     top: 55px;
-    left: 310px;
-    gap: 20px;
-
+    left: 330px;
+    gap: 30px;
+}
+.buttons a {
+    color: red
 }
