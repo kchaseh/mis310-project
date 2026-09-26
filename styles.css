@@ -54,6 +54,7 @@ header {
     text-decoration-line: none;
     text-wrap: nowrap;
 }
+/* Cards for Lists */
 .realismListDiv ul {
     display: grid;
     height: 700px;
@@ -66,7 +67,7 @@ header {
     background-color: lightgray;
     padding: 10px;
     border-radius: 15px;
-    
+
 
 
 }
