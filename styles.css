@@ -62,12 +62,12 @@ header {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 15px;
+    list-style-type: none;
 }
 .realismListDiv ul li {
     background-color: lightgray;
     padding: 10px;
     border-radius: 15px;
-    list-style-type: none;
     color: black;
 
 
