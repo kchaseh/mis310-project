@@ -55,7 +55,7 @@ header {
     text-wrap: nowrap;
 }
 /* Cards for Lists */
-.realismListDiv ul {
+.listDiv ul {
     display: grid;
     height: 700px;
     width: 700px;
@@ -63,8 +63,9 @@ header {
     grid-template-rows: 1fr 1fr 1fr;
     gap: 15px;
     list-style-type: none;
+    color: black;
 }
-.realismListDiv ul li {
+.listDiv ul li {
     background-color: lightgray;
     padding: 10px;
     border-radius: 15px;
