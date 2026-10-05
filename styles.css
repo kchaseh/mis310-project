@@ -56,20 +56,24 @@ header {
 }
 /* Cards for Lists */
 .listDiv ul {
-    display: grid;
-    height: 700px;
-    width: 700px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
     list-style-type: none;
-    color: black;
+
 }
 .listDiv ul li {
     background-color: lightgray;
-    padding: 10px;
-    border-radius: 15px;
+    border-radius: 10px;
     color: black;
+    height: 200px;
+    width: 150px;
 
+}
+.listDiv ul li header {
+
+}
+
+.listDiv ul li footer {
 
 }
