@@ -74,6 +74,6 @@ header {
     padding: 10px;
     min-width: 0;
 }
-.listDiv ul h1 {
+.listDiv h1 {
     grid-column: 1/2;
 }
