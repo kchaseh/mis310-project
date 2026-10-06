@@ -60,11 +60,15 @@ header {
     grid-template-columns: 1fr 3fr;
     padding-inline: 20px;
 }
-.listDiv ul {
+
+.listRightDiv ul {
     list-style-type: none;
     grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
 }
-.listDiv ul li {
+.listRightDiv ul li {
     background-color: lightgray;
     border-radius: 10px;
     color: black;
@@ -74,6 +78,9 @@ header {
     padding: 10px;
     min-width: 0;
 }
-.listDiv h1 {
+
+.listLeftDiv h1 {
     grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
 }
