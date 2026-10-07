@@ -15,6 +15,7 @@ nav {
     min-height: 150px;
     overflow: hidden;
     background-image: url("./images/background1.png");
+    background-size: cover;
 }
 nav ul {
     display: flex;
