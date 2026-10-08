@@ -21,11 +21,16 @@ nav ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-
+    list-style-type: none;
+    align-items: center;
+    gap: 20px;
 }
 .navButton {
     text-decoration: none;
     text-wrap: nowrap;
+    color: black;
+    background-color: lightgray;
+    padding: 10px;
 }
 
 .titleImage {
