@@ -24,6 +24,7 @@ nav ul {
     list-style-type: none;
     align-items: center;
     gap: 20px;
+    padding-inline: 10px;
 }
 .navButton {
     text-decoration: none;
@@ -31,6 +32,8 @@ nav ul {
     color: black;
     background-color: lightgray;
     padding: 10px;
+    border-radius: 5px;
+
 }
 
 .titleImage {
@@ -73,12 +76,18 @@ nav ul {
     text-wrap: nowrap;
 }
 */
-@media (max-width:850px) {
-    header {
-        height:auto;
-        min-height: 150px;
+@media (max-width:915px) {
+    nav {
+        padding-bottom: 40px;
     }
 }
+@media (max-width: 400px) {
+    .navButton {
+        flex-grow: auto;
+    }
+}
+
+
 /* Cards for Lists */
 .listDiv {
     display: grid;
