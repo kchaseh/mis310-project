@@ -26,6 +26,8 @@ nav ul {
 .navButton {
     list-style-type: none;
     text-decoration-style: none;
+    text-decoration-line: none;
+    text-wrap: nowrap;
 }
 
 .titleImage {
