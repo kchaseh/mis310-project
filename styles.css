@@ -23,6 +23,10 @@ nav ul {
     flex-direction: row;
 
 }
+nav ul li a{
+    list-style-type: none;
+    text-decoration-style: none;
+}
 
 .titleImage {
     height: 100px;
