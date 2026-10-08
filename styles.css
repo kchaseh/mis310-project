@@ -81,6 +81,13 @@ nav ul {
         padding-bottom: 40px;
     }
 }
+@media (min-width:915px) {
+    li form {
+        position: fixed;
+        right: 20px;
+        
+    }
+}
 @media (max-width: 400px) {
     .navButton {
         flex-grow: auto;
