@@ -23,7 +23,7 @@ nav ul {
     flex-direction: row;
 
 }
-nav ul li a{
+.navButton {
     list-style-type: none;
     text-decoration-style: none;
 }
