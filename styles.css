@@ -110,6 +110,12 @@ nav ul {
     padding: 20px;
 }
 .listRightDiv ul li a {
+    color: black;
+    padding: 10px;
+    text-decoration: None;
+}
+.listRightDiv ul li {
+    margin-bottom: 20px;
     background-color: lightgray;
     border-radius: 10px;
     color: black;
@@ -118,9 +124,6 @@ nav ul {
     margin-bottom: 20px;
     padding: 10px;
     min-width: 0;
-}
-.listRightDiv ul li {
-    margin-bottom: 20px;
 }
 .listLeftDiv h1 {
     grid-column: 1/2;
