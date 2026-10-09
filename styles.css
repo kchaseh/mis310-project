@@ -109,6 +109,16 @@ nav ul {
     flex-direction: column;
     padding: 20px;
 }
+.listRightDiv ul li a {
+    background-color: lightgray;
+    border-radius: 10px;
+    color: black;
+    height: 150px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    min-width: 0;
+}
 .listRightDiv ul li {
     background-color: lightgray;
     border-radius: 10px;
@@ -119,7 +129,6 @@ nav ul {
     padding: 10px;
     min-width: 0;
 }
-
 .listLeftDiv h1 {
     grid-column: 1/2;
     display: flex;
