@@ -130,3 +130,15 @@ nav ul {
     display: flex;
     flex-direction: column;
 }
+/*practice grid bento box */
+.box {
+    background-color: aqua;
+    border-radius: 5px;
+}
+.bentoGrid {
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+    grid-template-areas:
+    "box-1 box-1 box-2"
+    "box-2 box-2 box-2"
+}
