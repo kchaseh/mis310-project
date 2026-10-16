@@ -4,6 +4,7 @@ body {
     color: white;
     background-color: #292929;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 150%;
 }
 nav {
     position: sticky;
@@ -155,18 +156,26 @@ nav ul {
     "box-5";
 }
 .featuredBox {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100%;
 }
 .popModBox {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100%;
 }
 .popCatBox {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100%;
 }
 .popModpackBox {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100%;
 }
