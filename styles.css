@@ -144,50 +144,109 @@ nav ul {
 }
 /*Main page Grid*/
 .homeGrid {
-
+    grid-template-rows: 400px 200px 200px 300px 150px;
+    grid-template-areas: 
+    "box-1" 
+    "box-2" 
+    "box-3" 
+    "box-4" 
+    "box-5";
 }
 /*Main page Flex*/
 .featuredBox ul {
-
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
 }
 .popModBox ul {
-
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
 }
 .popCatBox ul {
 
 }
 .popModpackBox ul {
-
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
 }
 .creatorBox {
-
+    justify-items: center;
+    align-items: center;
 }
 /*Main page list item styles*/
 .featuredBox ul li {
-
+    background-color: lightgray;
+    border-radius: 10px;
+    color: black;
+    min-height: 150px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    min-width: 200px;
+    justify-items: center;
+    align-items: center;
 }
 .popModBox ul li {
-
+    background-color: lightgray;
+    border-radius: 10px;
+    color: black;
+    min-height: 150px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    min-width: 200px;
+    justify-items: center;
+    align-items: center;
 }
 .popCatBox ul li {
-
+    background-color: lightgray;
+    border-radius: 10px;
+    color: black;
+    min-height: 150px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    min-width: 200px;
+    justify-items: center;
+    align-items: center;
 }
 .popModpackBox ul li {
-
+    background-color: lightgray;
+    border-radius: 10px;
+    color: black;
+    min-height: 150px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    min-width: 200px;
+    justify-items: center;
+    align-items: center;
 }
 /*Main page <a>(anchor) styles*/
 .featuredBox ul li a {
-
+    color: black;
+    padding: 10px;
+    text-decoration: None;
 }
 .popModBox ul li a {
-
+    color: black;
+    padding: 10px;
+    text-decoration: None;
 }
 .popCatBox ul li a {
-
+    color: black;
+    padding: 10px;
+    text-decoration: None;
 }
 .popModpackBox ul li a {
-
+    color: black;
+    padding: 10px;
+    text-decoration: None;
 }
 .creatorBox a {
-
+    color: black;
+    padding: 10px;
+    text-decoration: None;
 }
