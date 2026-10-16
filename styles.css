@@ -170,6 +170,10 @@ nav ul {
     padding: 20px;
     gap: 20px;
 }
+/*First section*/
+.homeGrid .featuredBox ul {
+    height: 100%;
+}
 .creatorBox {
     justify-items: center;
     align-items: center;
@@ -182,6 +186,15 @@ nav ul {
     width: 100%;
     justify-items: center;
     align-items: center;
+}
+/*First section*/
+.featuredBox ul li a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.featuredBox ul li a p {
+    margin: 0;
 }
 
 /*Main page <a>(anchor) styles*/
