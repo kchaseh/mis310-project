@@ -147,68 +147,23 @@ nav ul {
 .homeGrid {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 500px 200px 200px 300px 150px;
+    grid-template-rows: 500px auto auto auto 150px;
     grid-template-areas: 
     "box-1" 
     "box-2" 
     "box-3" 
     "box-4" 
     "box-5";
+    margin-top: 20px;
 }
-.featuredBox {
+.homeGrid div {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 100%;
-}
-.popModBox {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-}
-.popCatBox {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-}
-.popModpackBox {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-}
-.creatorBox {
-    width: 100%;
-    height: 100%;
-    justify-items: center;
-    align-items: center;
 }
 /*Main page Flex*/
-.featuredBox ul {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    padding: 20px;
-    gap: 20px;
-    height: 100%;
-}
-.popModBox ul {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    padding: 20px;
-    gap: 20px;
-}
-.popCatBox ul {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    padding: 20px;
-    gap: 20px;
-}
-.popModpackBox ul {
+.homeGrid div ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
@@ -220,15 +175,7 @@ nav ul {
     align-items: center;
 }
 /*Main page list item styles*/
-.featuredBox ul li {
-    background-color: lightgray;
-    border-radius: 10px;
-    color: black;
-    width: 33vw;
-    justify-items: center;
-    align-items: center;
-}
-.popModBox ul li {
+.homeGrid div ul li {
     background-color: lightgray;
     border-radius: 10px;
     color: black;
@@ -236,39 +183,9 @@ nav ul {
     justify-items: center;
     align-items: center;
 }
-.popCatBox ul li {
-    background-color: lightgray;
-    border-radius: 10px;
-    color: black;
-    width: 100%;
-    justify-items: center;
-    align-items: center;
-}
-.popModpackBox ul li {
-    background-color: lightgray;
-    border-radius: 10px;
-    color: black;
-    width: 100%;
-    justify-items: center;
-    align-items: center;
-}
+
 /*Main page <a>(anchor) styles*/
-.featuredBox ul li a {
-    color: black;
-    padding: 10px;
-    text-decoration: None;
-}
-.popModBox ul li a {
-    color: black;
-    padding: 10px;
-    text-decoration: None;
-}
-.popCatBox ul li a {
-    color: black;
-    padding: 10px;
-    text-decoration: None;
-}
-.popModpackBox ul li a {
+.homeGrid div ul li a {
     color: black;
     padding: 10px;
     text-decoration: None;
@@ -280,4 +197,6 @@ nav ul {
 }
 .homeGrid h6 {
     text-align: center;
+    font-size: 25px;
+    margin: 0;
 }
