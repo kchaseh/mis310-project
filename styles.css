@@ -142,3 +142,52 @@ nav ul {
     padding: 10px;
     min-width: 0;
 }
+/*Main page Grid*/
+.homeGrid {
+
+}
+/*Main page Flex*/
+.featuredBox ul {
+
+}
+.popModBox ul {
+
+}
+.popCatBox ul {
+
+}
+.popModpackBox ul {
+
+}
+.creatorBox {
+
+}
+/*Main page list item styles*/
+.featuredBox ul li {
+
+}
+.popModBox ul li {
+
+}
+.popCatBox ul li {
+
+}
+.popModpackBox ul li {
+
+}
+/*Main page <a>(anchor) styles*/
+.featuredBox ul li a {
+
+}
+.popModBox ul li a {
+
+}
+.popCatBox ul li a {
+
+}
+.popModpackBox ul li a {
+
+}
+.creatorBox a {
+
+}
