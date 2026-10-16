@@ -147,7 +147,7 @@ nav ul {
 .homeGrid {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 500px auto auto auto 150px;
+    grid-template-rows: 500px auto auto 500px 150px;
     grid-template-areas: 
     "box-1" 
     "box-2" 
@@ -193,15 +193,17 @@ nav ul {
     flex-direction: column;
     justify-content: space-between;
 }
-.featuredBox ul li a p {
-    margin: 0;
-}
 
 /*Main page <a>(anchor) styles*/
 .homeGrid div ul li a {
     color: black;
     padding: 10px;
     text-decoration: None;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+
 }
 .creatorBox a {
     color: black;
