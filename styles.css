@@ -144,6 +144,8 @@ nav ul {
 }
 /*Main page Grid*/
 .homeGrid {
+    display: grid;
+    grid-template-columns: 100%;
     grid-template-rows: 400px 200px 200px 300px 150px;
     grid-template-areas: 
     "box-1" 
@@ -151,6 +153,8 @@ nav ul {
     "box-3" 
     "box-4" 
     "box-5";
+    position: fixed;
+    top: 200px
 }
 /*Main page Flex*/
 .featuredBox ul {
@@ -164,7 +168,10 @@ nav ul {
     padding: 20px;
 }
 .popCatBox ul {
-
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    flex-wrap: wrap;
 }
 .popModpackBox ul {
     display: flex;
