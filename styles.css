@@ -215,7 +215,7 @@ nav ul {
     margin: 0;
 }
 /*Card Images*/
-.homeGrid ul li a img {
+.homeGrid div ul li a img {
     width: 100%;
     height: 100%;
     border-radius: 5px;
