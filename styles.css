@@ -221,6 +221,5 @@ nav ul {
     border-radius: 5px;
     object-fit: cover;
     aspect-ratio: 4/4; 
-    justify-content: center;
-    align-content: center;
+    align-self: center;
 }
