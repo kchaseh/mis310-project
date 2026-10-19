@@ -109,7 +109,7 @@ nav ul {
 .bentoGrid {
     display: grid;
     grid-template-columns: 250px 1fr;
-    grid-template-rows: 150px 70px 600px 150px;
+    grid-template-rows: 150px 70px 1000px 150px;
     grid-template-areas: 
     "box-1 box-1" 
     "box-3 box-2" 
@@ -142,6 +142,15 @@ nav ul {
     margin-bottom: 20px;
     padding: 10px;
     min-width: 0;
+}
+.modCards ul li a img {
+    aspect-ratio: 4/4;
+    width: 30%;
+    border-radius: 5px;
+    object-fit: cover;
+    border: 5px solid;
+    border-color: #292929;
+    padding: 3px;
 }
 /*Main page Grid*/
 .homeGrid {
@@ -190,7 +199,7 @@ nav ul {
 /*Main page <p> styles*/
 .homeGrid div ul li p:first-of-type {
     font-size: 18px;
-    color: red;
+    font-style: bold;
 }
 /*First section
 .featuredBox ul li a {
