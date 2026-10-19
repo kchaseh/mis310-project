@@ -187,6 +187,11 @@ nav ul {
     justify-items: center;
     align-items: center;
 }
+/*Main page <p> styles*/
+.homeGrid div ul li p:first-of-type {
+    font-size: 18px;
+    color: red;
+}
 /*First section
 .featuredBox ul li a {
     display: flex;
@@ -216,10 +221,14 @@ nav ul {
 }
 /*Card Images*/
 .homeGrid div ul li a img {
-    width: 70%;
-    height: 70%;
+    width: 50%;
     border-radius: 5px;
     object-fit: cover;
     aspect-ratio: 4/4; 
     align-self: center;
+    border: 5px solid;
+    border-color: #292929;
+    padding: 3px;
+
 }
+
