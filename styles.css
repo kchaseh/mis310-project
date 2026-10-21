@@ -174,7 +174,7 @@ nav ul {
     border-color: #292929;
     padding: 3px;
 }
-.homeGrid div ul li h5 {
+.modCards div ul li a h5 {
     font-size: 18px;
     font-style: bold;
     margin: 0px;
