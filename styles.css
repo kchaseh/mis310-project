@@ -43,6 +43,14 @@ nav ul {
     width: 300px;
 }
 
+#search {
+    padding-block: 10px;
+    border-radius: 3px;
+    border: solid .2px #b8b8b8;
+    background-color: #363636;
+    color: #e6e6e6;
+}
+
 @media (max-width:915px) {
     nav {
         padding-bottom: 40px;
