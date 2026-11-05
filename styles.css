@@ -192,7 +192,7 @@ nav ul {
 .homeGrid {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 450px auto auto 500px 150px;
+    grid-template-rows: auto auto auto 500px 150px;
     grid-template-areas: 
     "box-1" 
     "box-2" 
@@ -231,6 +231,7 @@ nav ul {
     justify-items: center;
     align-items: center;
     border: solid .5px #b8b8b8;
+    max-width: 300px;
 }
 /*Main page <p> styles*/
 .homeGrid div ul li p:first-of-type {
@@ -247,12 +248,11 @@ nav ul {
     font-size: 13px;
     margin-top: 20px; 
 }
-/*First section
-.featuredBox ul li a {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}*/
+/*First section*/
+.featuredBox {
+
+    align-items: center;
+}
 
 /*Main page <a>(anchor) styles*/
 .homeGrid div ul li a {
