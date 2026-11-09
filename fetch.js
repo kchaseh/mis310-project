@@ -32,4 +32,6 @@ function addElement() {
 
 }
 
-addElement();
+window.addEventListener('DOMContentLoaded', addElement)
+
+
