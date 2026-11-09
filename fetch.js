@@ -26,12 +26,6 @@ function addElement() {
     const p1 = document.createElement("p");
     const p2 = document.createElement("p");
     const p3 = document.createElement("p");
-    /*placehoder text for test*/
-    const testText1 = document.createTextNode("a1");
-    const testText2 = document.createTextNode('img1');
-    const testText3 = document.createTextNode('p1');
-    const testText4 = document.createTextNode('p2');
-    const testText5 = document.createTextNode('p3');
     /*adding ids to <a> element and <p1> element*/
     a1.setAttribute("id", "a1");
     p1.setAttribute("id", "p1");
@@ -39,7 +33,6 @@ function addElement() {
     const ulElement = document.getElementById("ulID");
     ulElement.appendChild(li1);
     li1.appendChild(a1);
-    a1.appendChild(testText1);
     a1.appendChild(img1);
     a1.appendChild(p1);
     a1.appendChild(p2);
