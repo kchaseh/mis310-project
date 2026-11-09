@@ -13,7 +13,7 @@
 }*/
 
 function addElement() {
-    const li = document.createElement("li");
+    const li1 = document.createElement("li");
     const p1 = document.createElement("p");
     const p2 = document.createElement("p");
 
@@ -24,7 +24,8 @@ function addElement() {
     li.appendChild(testText1);
 
     const ulElement = document.getElementById("ulID");
-    document.body.insertBefore(li, ulElement);
+    ulElement.appendChild(li1)
+    li1.appendChild(p)
 
     /*li.appendChild(p1, p2,)*/
 
