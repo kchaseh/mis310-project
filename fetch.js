@@ -34,6 +34,10 @@ function addElement() {
     ulElement.appendChild(li1);
     li1.appendChild(a1);
     a1.appendChild(testText1);
+    a1.appendChild(img1);
+    a1.appendChild(p1);
+    a1.appendChild(p2);
+    a1.appendChild(p3);
     /* creating parent child relationship similar to card in index.html*/
     /*const ulElement = document.getElementById("ulID");
     ulElement.appendChild(li1);
