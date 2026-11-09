@@ -21,12 +21,12 @@ function addElement() {
     const testText1 = document.createTextNode("p1");
     const testText2 = document.createTextNode('p2');
 
-    li.appendChild(testText1);
+  
 
     const ulElement = document.getElementById("ulID");
     ulElement.appendChild(li1)
-    li1.appendChild(p)
-
+    li1.appendChild(p1)
+    p1.appendChild(testText1)
     /*li.appendChild(p1, p2,)*/
 
 
