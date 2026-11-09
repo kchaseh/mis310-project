@@ -15,7 +15,7 @@
 function addElement() {
     /*creating the elements*/
     const li1 = document.createElement("li");
-    const a1 = document.createElemeent("a")
+    const a1 = document.createElement("a")
     const img1 = document.createElement("img");
     const p1 = document.createElement("p");
     const p2 = document.createElement("p");
