@@ -27,8 +27,8 @@ function addElement() {
     const testText4 = document.createTextNode('p2');
     const testText5 = document.createTextNode('p3');
     /*adding ids to <a> element and <p1> element*/
-    a1.setAttribute(id, a1);
-    p1.setAttribute(id, p1);
+    a1.setAttribute("id", "a1");
+    p1.setAttribute("id", "p1");
 
     const ulElement = document.getElementById("ulID");
     ulElement.appendChild(li1);
