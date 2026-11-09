@@ -1,6 +1,12 @@
 
-
-
+/*map for mod information(temporary, only for testing and learning. ultimate goal is to get this same information from a json file)*/
+const mod1 = {
+    "Title": "Vehicle Armor Crafting",
+    "Creator": "sugar_mama_",
+    "Image": "https://images.steamusercontent.com/ugc/12958559004751687701/8EFC1AA5D6D4D0F79D28A2D683582C6ADCDCA2C8/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false",
+    "Description": "Allows players to craft and install improvised armor on vehicles to protect windows, hoods, and trunks from damage.",
+    "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3800858172"
+};
 
 /*fetch("mods.json")
     .then(response => response.json())
@@ -38,12 +44,16 @@ function addElement() {
     a1.appendChild(p1);
     a1.appendChild(p2);
     a1.appendChild(p3);
-    /* creating parent child relationship similar to card in index.html*/
-    /*const ulElement = document.getElementById("ulID");
-    ulElement.appendChild(li1);
-    li1.appendChild(a1);
-    a1.appendChild(img1, p1, p2, p3)
-    img1.setAttribute*/
+
+    /*fetch("mods.json")
+    .then(response => response.json())
+    .then(value => )*/
+    /*link and image attributes from universal object(at the top of page)*/
+    a1.setAttribute("href", mod1.url)
+    img1.setAttribute('src', mod1.Image)
+    p1.append(mod1.Title)
+    p2.append(mod1.Creator)
+    p3.append(mod1.Description)
 
 
 
