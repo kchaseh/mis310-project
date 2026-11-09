@@ -33,7 +33,7 @@ function addElement() {
     const ulElement = document.getElementById("ulID");
     ulElement.appendChild(li1);
     li1.appendChild(a1);
-    a1.appendChild(testText1)
+    a1.appendChild(testText1);
     /* creating parent child relationship similar to card in index.html*/
     /*const ulElement = document.getElementById("ulID");
     ulElement.appendChild(li1);
