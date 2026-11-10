@@ -52,9 +52,9 @@ function addElement() {
 
     /*test to pull data from json*/
     fetch("mods.json")
-    .then(response => response.json())
+    then(response => response.json())
     const mods = {}
-    .then(data => mods)
+    then(data => mods)
     
     
     a1.append(mods.url[0])
