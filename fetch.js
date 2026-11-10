@@ -53,6 +53,33 @@ function addElement() {
     /*test to pull data from json*/
     fetch("mods.json")
     .then(response => response.json())
+    .then(data => mods)
+    
+    
+    a1.append(mods.url[0])
+    img1.append(mods.Image[0])
+    p1.append(mods.Title[0])
+    p2.append(mods.Creator[0])
+    p3.append(mods.Description[0])
+        /*{
+        a1.append(mods.url[0])
+        img1.append(mods.Image[0])
+        p1.append(mods.Title[0])
+        p2.append(mods.Creator[0])
+        p3.append(mods.Description[0])
+    })*/
+
+
+
+}
+
+window.addEventListener('DOMContentLoaded', addElement)
+
+
+/*
+function fetchModData() {
+    fetch("mods.json")
+    .then(response => response.json())
     .then((data) => {
         a1.append(mods.url[0])
         img1.append(mods.Image[0])
@@ -61,10 +88,6 @@ function addElement() {
         p3.append(mods.Description[0])
     })
 
-
-
-}
-
-window.addEventListener('DOMContentLoaded', addElement)
+}*/
 
 
