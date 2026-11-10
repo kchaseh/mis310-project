@@ -53,6 +53,7 @@ function addElement() {
     /*test to pull data from json*/
     fetch("mods.json")
     .then(response => response.json())
+    const mods = null
     .then(data => mods)
     
     
