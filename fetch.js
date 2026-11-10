@@ -1,12 +1,12 @@
 
 /*map for mod information(temporary, only for testing and learning. ultimate goal is to get this same information from a json file)*/
-const mod1 = {
+/*const mod1 = {
     "Title": "Vehicle Armor Crafting",
     "Creator": "sugar_mama_",
     "Image": "https://images.steamusercontent.com/ugc/12958559004751687701/8EFC1AA5D6D4D0F79D28A2D683582C6ADCDCA2C8/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false",
     "Description": "Allows players to craft and install improvised armor on vehicles to protect windows, hoods, and trunks from damage.",
     "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3800858172"
-};
+};*/
 
 /*fetch("mods.json")
     .then(response => response.json())
@@ -54,11 +54,11 @@ function addElement() {
     fetch("mods.json")
     .then(response => response.json())
     .then(mods => {
-        a1.setAttribute('href', mods.url[0])
-        img1.setAttribute('src', mods.Image[0])
-        p1.append(mods.Title[0])
-        p2.append(mods.Creator[0])
-        p3.append(mods.Description[0])
+        a1.setAttribute('href', mods[0].url)
+        img1.setAttribute('src', mods[0].Image)
+        p1.append(mods[0].Title)
+        p2.append(mods[0].Creator)
+        p3.append(mods[0].Description)
     })
     
     
