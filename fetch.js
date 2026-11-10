@@ -42,12 +42,24 @@ function addElement() {
     .then(response => response.json())
     .then(value => )*/
     /*link and image attributes from universal object(at the top of page)*/
-    a1.setAttribute("href", mod1.url)
+    
+    
+    /*a1.setAttribute("href", mod1.url)
     img1.setAttribute('src', mod1.Image)
     p1.append(mod1.Title)
     p2.append(mod1.Creator)
-    p3.append(mod1.Description)
+    p3.append(mod1.Description)*/
 
+    /*test to pull data from json*/
+    fetch("mods.json")
+    .then(response => response.json())
+    .then((data) => {
+        a1.append(mods.url[0])
+        img1.append(mods.Image[0])
+        p1.append(mods.Title[0])
+        p2.append(mods.Creator[0])
+        p3.append(mods.Description[0])
+    })
 
 
 
