@@ -26,9 +26,16 @@ function addElement() {
     const p1 = document.createElement("p");
     const p2 = document.createElement("p");
     const p3 = document.createElement("p");
-    /*adding ids to <a> element and <p1> element*/
+    /*adding ids to elements*/
+    li1.setAttribute("id", "li1")
     a1.setAttribute("id", "a1");
+    img1.setAttribute("id", "img1")
     p1.setAttribute("id", "p1");
+    p2.setAttribute("id", "p2");
+    p3.setAttribute("id", "p3");
+
+    /*const p2Text = document.createTextNode("By:")*/
+    p2.append(document.createTextNode("By:"))
 
     const ulElement = document.getElementById("ulID");
     ulElement.appendChild(li1);
@@ -54,7 +61,7 @@ function addElement() {
     fetch("mods.json")
     .then(response => response.json())
     .then(mods => {
-        a1.setAttribute('href', mods[0].url)
+        a1.setAttribute('href', mods[0].url);
         img1.setAttribute('src', mods[0].Image)
         p1.append(mods[0].Title)
         p2.append(mods[0].Creator)
