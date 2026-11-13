@@ -10,6 +10,6 @@ function hideQuestion() {
 }
 
 
-qStart.addEventListener("click", showQuestion())
-qNext.addEventListener("click", hideQuestion())
+qStart.addEventListener("click", showQuestion)
+qNext.addEventListener("click", hideQuestion)
 
