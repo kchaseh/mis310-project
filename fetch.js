@@ -35,7 +35,7 @@ function addElement() {
     p3.setAttribute("id", "p3");
 
     /*const p2Text = document.createTextNode("By:")*/
-    p2.append(document.createTextNode("By:"))
+    p2.append(document.createTextNode("By: "))
 
     const ulElement = document.getElementById("ulID");
     ulElement.appendChild(li1);

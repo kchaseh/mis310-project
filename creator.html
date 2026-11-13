@@ -38,26 +38,24 @@
             </ul>
 
         </nav>
-        <!--Mod List-->
-        <h1>Realism</h1>
-            <div class="realismListDiv">
-                <ul>
-                    <li> Realistic Dashboard & Gauges <br> By: LonelyDesperate</li>
-                    <li>Long Term Preservation <br> By: Skittles</li>
-                    <li>Project Seasons <br> By: DRAGO1212 </li>
-                    <li>No Player Map Marker <br> By: Blackbeard</li>
-                    <li>Immersive Searching <br> By: キツネユキ</li>
-                </ul>
+        <p>Welcome to the creator page. Here, you are asked questions regarding the experience you would like to have in Project Zomboid. Based on your answers, we will tailor a list of mods or mod pack to your liking. The button below will begin the Questionnair, you can answer by clicking the radio buttons with "Yes", "No", or "I don't care".</p>
+        <button class="qStartClass" id="qStartid" alt="button with text Click Here to Start the Questionnair">Click Here to Start the Questionnair</button>
+
+        <dialog class="q1class" id="q1id">
+            <p>Do you want more cars other than the defualt cars in the game?</p>
+            
+            <div class="radioDiv">
+                <input type="radio" class="rInput" id="rInput1" value="Yes">
+                <label for="rInput1">Yes</label>
+
+                <input type="radio" class="rInput" id="rInput2" value="No">
+                <label for="rInput2">No</label>
+
+                <input type="radio" class="rInput" id="rInput3" value="No">
+                <label for="rInput3">I dont care</label>
             </div>
-        <h2>Vehicles</h2>
-            <div class="vehiclesListDiv">
-                <ul>
-                    <li> Vehicle Armor Crafting <br> By: suger_mama_</li>
-                    <li> Dodge Caravan Rust Edition <br> By: Hands up</li>
-                    <li>Horse Mod <br> By: RedChili </li>
-                    <li>Campers! <br> By: KI5 </li>
-                    <li>Trailers! <br> By: KI5 </li>
-                </ul>
-            </div>
+            
+            <button class="bNextClass" id="bNextid">Next</button>
+        </dialog>
     </body>
 </html>
