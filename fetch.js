@@ -131,6 +131,8 @@ function generateFeaturedCards () {
     
 }
 
+window.addEventListener('DOMContentLoaded', generateFeaturedCards)
+
 /*fetch("mods.json")
     .then(response => response.json())
     .then(value => )*/
