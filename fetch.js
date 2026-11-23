@@ -57,7 +57,6 @@ function generateAllCards() {
             const p1 = document.createElement("p");
             const p2 = document.createElement("p");
             const p3 = document.createElement("p");
-            const ulElement = document.getElementById("ulID");
             /*adding ids to elements*/
             li1.setAttribute("id", "li1")
             a1.setAttribute("id", "a1");
