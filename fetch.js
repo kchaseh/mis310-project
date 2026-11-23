@@ -88,19 +88,19 @@ function generateAllCards() {
 
 window.addEventListener('DOMContentLoaded', generateAllCards)
 
-function generateFeaturedCards () {
+/*function generateFeaturedCards () {
     fetch("mods.json")
     .then(response => response.json())
     .then(mods => {
         for (let i = 0; i < 3; i++) {
-            /*creating the elements*/
+            creating the elements
             const li1 = document.createElement("li");
             const a1 = document.createElement("a")
             const img1 = document.createElement("img");
             const p1 = document.createElement("p");
             const p2 = document.createElement("p");
             const p3 = document.createElement("p");
-            /*adding ids to elements*/
+            adding ids to elements
             li1.setAttribute("id", "featuredli" + i)
             a1.setAttribute("id", "featureda" + i);
             img1.setAttribute("id", "featuredimg" + i)
@@ -116,7 +116,7 @@ function generateFeaturedCards () {
             a1.appendChild(p1);
             a1.appendChild(p2);
             a1.appendChild(p3);
-            /*pulling mod information from json and adding them*/
+            /*pulling mod information from json and adding them
             
             const randomMod = Math.floor(Math.random() * mods.length)
                 
