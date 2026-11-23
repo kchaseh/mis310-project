@@ -92,22 +92,22 @@ function generateFeaturedCards () {
     fetch("mods.json")
     .then(response => response.json())
     .then(mods => {
-        for (let i = 0; i < 2; i++) {
+        for (let i = 0; i < 3; i++) {
             /*creating the elements*/
             const li1 = document.createElement("li");
-            li1.setAttribute("id", "li1")
             const a1 = document.createElement("a")
             const img1 = document.createElement("img");
             const p1 = document.createElement("p");
             const p2 = document.createElement("p");
             const p3 = document.createElement("p");
             /*adding ids to elements*/
-            li1.setAttribute("id", "li1")
-            a1.setAttribute("id", "a1");
-            img1.setAttribute("id", "img1")
-            p1.setAttribute("id", "p1");
-            p2.setAttribute("id", "p2");
-            p3.setAttribute("id", "p3");
+            li1.setAttribute("id", "featuredli" + i)
+            a1.setAttribute("id", "featureda" + i);
+            img1.setAttribute("id", "featuredimg" + i)
+            p1.setAttribute("id", "featuredp1" + i);
+            p2.setAttribute("id", "featuredp2" + i);
+            p3.setAttribute("id", "featuredp3" + i);
+            li1.setAttribute("class", "featuredCardClassLi")
             
             const ulElement = document.getElementById("ulID");
             ulElement.appendChild(li1);
