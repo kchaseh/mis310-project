@@ -65,7 +65,7 @@ function generateAllCards() {
             p2.setAttribute("id", "p2");
             p3.setAttribute("id", "p3");
 
-            const ulElement = document.getElementById("ulID");
+            const ulElement = document.getElementById("modCardsUl");
             ulElement.appendChild(li1);
             li1.appendChild(a1);
             a1.appendChild(img1);
