@@ -18,15 +18,15 @@
 
 }*/
 
-function generateCards() {
-    /*creating the elements*/
+function generateAllCards() {
+    /*creating the elements
     const li1 = document.createElement("li");
     const a1 = document.createElement("a")
     const img1 = document.createElement("img");
     const p1 = document.createElement("p");
     const p2 = document.createElement("p");
     const p3 = document.createElement("p");
-    /*adding ids to elements*/
+    /*adding ids to elements
     li1.setAttribute("id", "li1")
     a1.setAttribute("id", "a1");
     img1.setAttribute("id", "img1")
@@ -34,7 +34,7 @@ function generateCards() {
     p2.setAttribute("id", "p2");
     p3.setAttribute("id", "p3");
 
-    /*const p2Text = document.createTextNode("By:")*/
+    /*const p2Text = document.createTextNode("By:")
     p2.append(document.createTextNode("By: "))
 
     const ulElement = document.getElementById("ulID");
@@ -43,13 +43,38 @@ function generateCards() {
     a1.appendChild(img1);
     a1.appendChild(p1);
     a1.appendChild(p2);
-    a1.appendChild(p3);
+    a1.appendChild(p3);*/
 
     
     fetch("mods.json")
     .then(response => response.json())
     .then(mods => {
         for (let i = 0; i < mods.length; i++) {
+            /*creating the elements*/
+            const li1 = document.createElement("li");
+            const a1 = document.createElement("a")
+            const img1 = document.createElement("img");
+            const p1 = document.createElement("p");
+            const p2 = document.createElement("p");
+            const p3 = document.createElement("p");
+            const ulElement = document.getElementById("ulID");
+            /*adding ids to elements*/
+            li1.setAttribute("id", "li1")
+            a1.setAttribute("id", "a1");
+            img1.setAttribute("id", "img1")
+            p1.setAttribute("id", "p1");
+            p2.setAttribute("id", "p2");
+            p3.setAttribute("id", "p3");
+
+            const ulElement = document.getElementById("ulID");
+            ulElement.appendChild(li1);
+            li1.appendChild(a1);
+            a1.appendChild(img1);
+            a1.appendChild(p1);
+            a1.appendChild(p2);
+            a1.appendChild(p3);
+            /*pulling mod information from json and adding them*/
+
             a1.setAttribute('href', mods[i].url);
             img1.setAttribute('src', mods[i].Image)
             p1.append(mods[i].Title)
@@ -62,8 +87,50 @@ function generateCards() {
 
 }
 
-window.addEventListener('DOMContentLoaded', generateCards)
+window.addEventListener('DOMContentLoaded', generateAllCards)
 
+function generateFeaturedCards () {
+    fetch("mods.json")
+    .then(response => response.json())
+    .then(mods => {
+        for (let i = 0; i < 2; i++) {
+            /*creating the elements*/
+            const li1 = document.createElement("li");
+            li1.setAttribute("id", "li1")
+            const a1 = document.createElement("a")
+            const img1 = document.createElement("img");
+            const p1 = document.createElement("p");
+            const p2 = document.createElement("p");
+            const p3 = document.createElement("p");
+            /*adding ids to elements*/
+            li1.setAttribute("id", "li1")
+            a1.setAttribute("id", "a1");
+            img1.setAttribute("id", "img1")
+            p1.setAttribute("id", "p1");
+            p2.setAttribute("id", "p2");
+            p3.setAttribute("id", "p3");
+            
+            const ulElement = document.getElementById("ulID");
+            ulElement.appendChild(li1);
+            li1.appendChild(a1);
+            a1.appendChild(img1);
+            a1.appendChild(p1);
+            a1.appendChild(p2);
+            a1.appendChild(p3);
+            /*pulling mod information from json and adding them*/
+            
+            const randomMod = Math.floor(Math.random() * mods.length)
+                
+            a1.setAttribute('href', mods[randomMod].url);
+            img1.setAttribute('src', mods[randomMod].Image)
+            p1.append(mods[randomMod].Title)
+            p2.append("By: " + mods[randomMod].Creator)
+            p3.append(mods[randomMod].Description)
+            
+        }
+    })
+    
+}
 
 /*fetch("mods.json")
     .then(response => response.json())
